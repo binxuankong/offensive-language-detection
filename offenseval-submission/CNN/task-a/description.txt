@@ -1,0 +1,9 @@
+This is for the predictions against the testing set of sub-taskA.
+The system used to generate the predictions is a single layer convolution neural network (CNN). The model is optimised using Stochastic Gradient Descent and the hyper parameters tuning is done using Bayesian Optimisation.
+The overall structure of the model is such:
+Embedding Dimension = 100
+Out Channels = 180
+Window Size = 1
+Drop Out Rate = 42%
+SGD Learning Rate = 0.0015
+SGD Weight Decay = 0.8655

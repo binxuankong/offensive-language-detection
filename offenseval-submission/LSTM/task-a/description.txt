@@ -1,0 +1,3 @@
+This is for the predictions against the testing set of sub-taskA.
+The system used to generate the predictions is a long-short term memory (LSTM) classifier. The model is trained using cross entropy loss and optimised using the Adam optimizer. The hyper parameters tuning is done using Bayesian Optimisation, in particular Gaussian Process, to maximize the accuracy.
+The embedding dimension, hidden dimension, drop out rate, learning rate and weight decay are the hyper parameters to be optimized. 
